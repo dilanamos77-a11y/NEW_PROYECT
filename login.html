@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión - New Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #fdfdfd;">
+
+  <div class="login-container">
+    <div class="logo">
+      <a href="index.html">
+        <h1>NEW PROJECT</h1>
+        <span>Oversize & Streetwear</span>
+      </a>
+    </div>
+    <h2>Iniciar sesión</h2>
+    <p>Introduce tu correo electrónico y te enviaremos un código de verificación</p>
+    
+    <form onsubmit="event.preventDefault(); alert('Código de verificación enviado');">
+      <input type="email" class="form-input" placeholder="Correo electrónico" required>
+      <button type="submit" class="btn-full">Continuar</button>
+    </form>
+
+    <div class="login-links">
+      <a href="#">Política de privacidad</a>
+      <a href="#">Términos del servicio</a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - New Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BARRA SUPERIOR DE ANUNCIOS -->
+  <div class="top-bar">
+    Envío gratis a todo el Perú a partir de S/199.99
+  </div>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <div class="header-main">
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Buscar en New Project...">
+      </div>
+      
+      <div class="logo">
+        <a href="index.html">
+          <h1>NEW PROJECT</h1>
+          <span>Oversize & Streetwear</span>
+        </a>
+      </div>
+
+      <div class="user-actions">
+        <i class="fa-regular fa-user" id="userIcon" style="cursor: pointer;"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
+        
+        <div class="user-menu-dropdown" id="userDropdown">
+          <a href="login.html">Ingresar</a>
+          <a href="#">Crear cuenta</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAVEGACIÓN -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#productos">Nuestros productos</a></li>
+        <li><a href="#">Nuestra historia</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO DE CONTACTO -->
+  <main class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Inicio</a> &gt; <span>Contacto</span>
+    </div>
+
+    <div class="contact-container">
+      <h2 class="contact-title">Contacto</h2>
+      <p class="contact-info">
+        Si tienes alguna duda y deseas comunicarte con nosotros, completa el siguiente formulario y te responderemos a la brevedad. También puedes escribirnos a <a href="mailto:contacto@newproject.pe">contacto@newproject.pe</a> o a nuestro WhatsApp <a href="https://wa.me/51948228919">(+51) 948228919</a>
+      </p>
+      <p class="contact-info contact-address">
+        Distrito Carabayllo - Lima - Perú
+      </p>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensaje enviado con éxito.');">
+        <input type="text" class="form-input" placeholder="Nombre" required>
+        <input type="email" class="form-input" placeholder="Correo electrónico" required>
+        <textarea class="form-input" placeholder="Mensaje" required></textarea>
+        <div class="text-center">
+          <button type="submit" class="btn-submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Política de cookies</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Libro de reclamaciones</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Atención al cliente</h4>
+        <ul>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Guía de tallas Oversize</a></li>
+          <li><a href="#">Cambios y devoluciones</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Información de contacto</h4>
+        <ul>
+          <li><a href="#">Teléfono: +51 948228919</a></li>
+          <li><a href="mailto:contacto@newproject.pe">Correo: contacto@newproject.pe</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      Derechos de autor © 2026 New Project.UCH
+    </div>
+  </footer>
+</body>
+</html>
