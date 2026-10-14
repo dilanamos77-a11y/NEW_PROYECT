@@ -1,253 +1,256 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEW PROYECT</title>
+    <title>NEW PROJECT</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- BARRA SUPERIOR -->
     <div class="top-bar">
-        Envio gratis a todo el Peru a partir de S/120.00
-    </div>
- <header>
-    <div class="header-main">
-        <div class="search-box">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text " placeholder="Buscar en new proyect. . .">
-        </div>
-        <div class="logo">
-        <a href="index.html" onclick="showPage('home')">
-          <h1>NEW PROJECT</h1>
-          <span>Oversize & Streetwear</span>
-        </a>
-      </div>
-
-      <div class="user-actions">
-        <i class="fa-regular fa-user" id="userIcon" style="cursor: pointer;"></i>
-        <i class="fa-solid fa-bag-shopping"></i>
-        
-        <!-- MENÚ DESPLEGABLE DE USUARIO -->
-        <div class="user-menu-dropdown" id="userDropdown">
-          <a href="login.html" onclick="showPage('login')">Ingresar</a>
-          <a href="login.html">Crear cuenta</a>
-        </div>
-      </div>
+        Envío gratis a todo el Perú a partir de S/120.00
     </div>
 
-    <!-- NAVEGACIÓN -->
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#" onclick="showPage('home')">Inicio</a></li>
-        <li><a href="#" onclick="showPage('home')">Nuestros productos</a></li>
-        <li><a href="#">Nuestra historia</a></li>
-        <li><a href="#" onclick="showPage('blog-detail')">Blog</a></li>
-        <li><a href="#" onclick="showPage('contact')">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- ENCABEZADO -->
+    <header>
+        <div class="header-main">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar en New Project. . .">
+            </div>
 
-  <!-- SECCIÓN 1: INICIO (LANDING PAGE) -->
-  <main id="home" class="page-section active">
-    <div class="container">
-      <!-- BANNER -->
-      <div class="hero-banner">
-        <img src="banner.jpg" alt="New Project Streetwear Oversize">
-        <div class="hero-overlay-card">
-          <h2>¡Arma tu outfit Oversize ideal!</h2>
-          <button class="btn-purple">Combina y elige</button>
-        </div>
-      </div>
+            <div class="logo">
+                <a href="#" onclick="showPage('home')">
+                    <h1>NEW PROJECT</h1>
+                    <span>Oversize & Streetwear</span>
+                </a>
+            </div>
 
-      <!-- CATÁLOGO DE PRODUCTOS -->
-      <h3 class="section-title">Nuestros productos</h3>
-      <a href="#" class="see-more-link">Ver más</a>
-
-      <div class="products-grid">
-        <div class="product-card">
-          <img src="https://cdn.shopify.com/s/files/1/0271/4196/3853/files/heavy-oversize-tee-slate-grey-grau-straight-outta-cotton-2730163.jpg?v=1751993158" alt="Polo Oversize Basic">
-          <div class="product-info">
-            <div class="product-title">Polo Oversize Heavy Cotton</div>
-            <div class="product-price">S/ 89.90</div>
-          </div>
+            <div class="user-actions">
+                <i class="fa-regular fa-user" id="userIcon" style="cursor: pointer;"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+                
+                <!-- MENÚ DESPLEGABLE DE USUARIO -->
+                <div class="user-menu-dropdown" id="userDropdown">
+                    <a href="#" onclick="showPage('login')">Ingresar</a>
+                    <a href="#">Crear cuenta</a>
+                </div>
+            </div>
         </div>
 
-        <div class="product-card">
-          <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=400" alt="Polera Hoodie Oversize">
-          <div class="product-info">
-            <div class="product-title">Polera Hoodie Vintage Wash</div>
-            <div class="product-price">S/ 159.90</div>
-          </div>
+        <!-- NAVEGACIÓN -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('home')">Inicio</a></li>
+                <li><a href="#" onclick="showPage('home')">Nuestros productos</a></li>
+                <li><a href="#">Nuestra historia</a></li>
+                <li><a href="#" onclick="showPage('blog-detail')">Blog</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN 1: INICIO (LANDING PAGE) -->
+    <main id="home" class="page-section active">
+        <div class="container">
+            <!-- BANNER -->
+            <div class="hero-banner">
+                <img src="banner.jpg" alt="New Project Streetwear Oversize">
+                <div class="hero-overlay-card">
+                    <h2>¡Arma tu outfit Oversize ideal!</h2>
+                    <button class="btn-purple">Combina y elige</button>
+                </div>
+            </div>
+
+            <!-- CATÁLOGO DE PRODUCTOS -->
+            <h3 class="section-title">Nuestros productos</h3>
+            <a href="#" class="see-more-link">Ver más</a>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://cdn.shopify.com/s/files/1/0271/4196/3853/files/heavy-oversize-tee-slate-grey-grau-straight-outta-cotton-2730163.jpg?v=1751993158" alt="Polo Oversize Basic">
+                    <div class="product-info">
+                        <div class="product-title">Polo Oversize Heavy Cotton</div>
+                        <div class="product-price">S/ 89.90</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=400" alt="Polera Hoodie Oversize">
+                    <div class="product-info">
+                        <div class="product-title">Polera Hoodie Vintage Wash</div>
+                        <div class="product-price">S/ 159.90</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1576995853123-5a10305d93c0?q=80&w=400" alt="Polera Crewneck">
+                    <div class="product-info">
+                        <div class="product-title">Polera Crewneck Acid Wash</div>
+                        <div class="product-price">S/ 139.90</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/0403024/2.jpg?8594" alt="Polera Graphic Oversize">
+                    <div class="product-info">
+                        <div class="product-title">Polo Oversize Graphic Print</div>
+                        <div class="product-price">S/ 99.90</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgyVZu1Cta80TZbeMseu-09TS8TuF7YprxHpXeRla0yYnlduoA2SUaAsE&s=10" alt="Pantalón Cargo Streetwear">
+                    <div class="product-info">
+                        <div class="product-title">Pantalón Cargo Wide Leg</div>
+                        <div class="product-price">S/ 179.90</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN DESTACADA DEL BLOG -->
+            <div class="blog-split-section">
+                <div class="blog-card-left">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTefatzdfSNsBGR6Q0sfCx4L7kivpXyKzmfKMYqeR9iuthIMEXvSqzF3c8&s=10" alt="El estilo Oversize">
+                    <div class="hero-overlay-card blog-card-overlay">
+                        <h2 class="blog-overlay-title">¡Tu estilo, nuestra prioridad!</h2>
+                        <button class="btn-purple" onclick="showPage('blog-detail')">Ver todo</button>
+                    </div>
+                </div>
+
+                <div class="blog-card-right">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGA4VwafFgThhkVNxxFZVeAddnFdYrMZAACY1jqs-S-IAM5j_Tepk5A&s=10" alt="Cultura Streetwear">
+                    <h4 class="blog-title">¡La revolución del fit Oversize: Más que moda, un estilo de vida urbano!</h4>
+                    <p class="blog-excerpt">Siluetas holgadas, materiales pesados y máxima comodidad. Descubre cómo combinar tus prendas New Project para lograr el look streetwear perfecto sin perder elegancia...</p>
+                    <a href="#" class="see-more-link" onclick="showPage('blog-detail')">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SECCIÓN 2: DETALLE DEL BLOG -->
+    <main id="blog-detail" class="page-section">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="#" onclick="showPage('home')">Inicio</a> &gt; <span>¡Tu estilo, nuestra prioridad!</span> &gt; <span>¡La revolución del fit Oversize...</span>
+            </div>
+
+            <div class="blog-split-section blog-detail-layout">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=600" alt="Detalle Blog Streetwear" class="blog-detail-img">
+                </div>
+
+                <div>
+                    <h2 class="blog-title blog-detail-title">¡La revolución del fit Oversize: Más que moda, un estilo de vida urbano!</h2>
+                    <p class="blog-detail-text">
+                        El corte oversize ha dejado de ser una tendencia pasajera para convertirse en la pieza central de la moda urbana global. No se trata solo de usar tallas más grandes, sino de prendas diseñadas técnicamente con caídas estructuradas, hombros caídos y telas de gramaje superior que garantizan comodidad sin perder la forma.
+                    </p>
+                    <p class="blog-detail-text-margin">
+                        En <b>New Project</b> apostamos por prendas versátiles con algodón 100% peruano de alto gramaje, lavados vintage y acabados duraderos. Combina nuestros polos de corte holgado con cargos estructurados o joggers para lograr el equilibrio perfecto en tu día a día.
+                    </p>
+                    <a href="#" onclick="showPage('home')" class="back-link"><i class="fa-solid fa-arrow-left"></i> Anterior</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SECCIÓN 3: FORMULARIO DE LOGIN -->
+    <main id="login" class="page-section">
+        <div class="login-container">
+            <div class="logo">
+                <h1>NEW PROJECT</h1>
+                <span>Oversize & Streetwear</span>
+            </div>
+            <h2>Iniciar sesión</h2>
+            <p>Introduce tu correo electrónico y te enviaremos un código de verificación</p>
+            
+            <form onsubmit="event.preventDefault();">
+                <input type="email" class="form-input" placeholder="Correo electrónico" required>
+                <button type="submit" class="btn-full">Continuar</button>
+            </form>
+
+            <div class="login-links">
+                <a href="#">Política de privacidad</a>
+                <a href="#">Términos del servicio</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- SECCIÓN 4: FORMULARIO DE CONTACTO -->
+    <main id="contact" class="page-section">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="#" onclick="showPage('home')">Inicio</a> &gt; <span>Contacto</span>
+            </div>
+
+            <div class="contact-container">
+                <h2 class="contact-title">Contacto</h2>
+                <p class="contact-info">
+                    Si tienes alguna duda y deseas comunicarte con nosotros, completa el siguiente formulario y te responderemos a la brevedad. También puedes escribirnos a <a href="mailto:contacto@newproject.pe">contacto@newproject.pe</a> o a nuestro WhatsApp <a href="#">(+51) 948228919</a>
+                </p>
+                <p class="contact-info contact-address">
+                    Distrito San Isidro - Lima - Perú
+                </p>
+
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensaje enviado');">
+                    <input type="text" class="form-input" placeholder="Nombre" required>
+                    <input type="email" class="form-input" placeholder="Correo electrónico" required>
+                    <textarea class="form-input" placeholder="Mensaje" required></textarea>
+                    <div class="text-center">
+                        <button type="submit" class="btn-submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Política de cookies</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Libro de reclamaciones</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Atención al cliente</h4>
+                <ul>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Guía de tallas Oversize</a></li>
+                    <li><a href="#">Cambios y devoluciones</a></li>
+                    <li><a href="#" onclick="showPage('contact')">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Información de contacto</h4>
+                <ul>
+                    <li><a href="#">Teléfono: +51 948228919</a></li>
+                    <li><a href="mailto:contacto@newproject.pe">Correo: contacto@newproject.pe</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
         </div>
 
-        <div class="product-card">
-          <img src="https://images.unsplash.com/photo-1576995853123-5a10305d93c0?q=80&w=400" alt="Polera Crewneck">
-          <div class="product-info">
-            <div class="product-title">Polera Crewneck Acid Wash</div>
-            <div class="product-price">S/ 139.90</div>
-          </div>
+        <div class="footer-bottom">
+            Derechos de autor © 2026 New Project. Tecnología de Shopify
         </div>
-
-        <div class="product-card">
-          <img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/44/0403024/2.jpg?8594" alt="Polera Graphic Oversize">
-          <div class="product-info">
-            <div class="product-title">Polo Oversize Graphic Print</div>
-            <div class="product-price">S/ 99.90</div>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgyVZu1Cta80TZbeMseu-09TS8TuF7YprxHpXeRla0yYnlduoA2SUaAsE&s=10" alt="Pantalón Cargo Streetwear">
-          <div class="product-info">
-            <div class="product-title">Pantalón Cargo Wide Leg</div>
-            <div class="product-price">S/ 179.90</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- SECCIÓN DESTACADA DEL BLOG -->
-      <div class="blog-split-section">
-        <div class="blog-card-left">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTefatzdfSNsBGR6Q0sfCx4L7kivpXyKzmfKMYqeR9iuthIMEXvSqzF3c8&s=10" alt="El estilo Oversize">
-          <div class="hero-overlay-card blog-card-overlay">
-            <h2 class="blog-overlay-title">¡Tu estilo, nuestra prioridad!</h2>
-            <button class="btn-purple" onclick="showPage('blog-detail')">Ver todo</button>
-          </div>
-        </div>
-
-        <div class="blog-card-right">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGA4VwafFgThhkVNxxFZVeAddnFdYrMZAACY1jqs-S-IAM5j_Tepk5A&s=10" alt="Cultura Streetwear">
-          <h4 class="blog-title">¡La revolución del fit Oversize: Más que moda, un estilo de vida urbano!</h4>
-          <p class="blog-excerpt">Siluetas holgadas, materiales pesados y máxima comodidad. Descubre cómo combinar tus prendas New Project para lograr el look streetwear perfecto sin perder elegancia...</p>
-          <a href="#" class="see-more-link" onclick="showPage('blog-detail')">Leer más</a>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- SECCIÓN 2: DETALLE DEL BLOG -->
-  <main id="blog-detail" class="page-section">
-    <div class="container">
-      <div class="breadcrumb">
-        <a href="#" onclick="showPage('home')">Inicio</a> &gt; <span>¡Tu estilo, nuestra prioridad!</span> &gt; <span>¡La revolución del fit Oversize...</span>
-      </div>
-
-      <div class="blog-split-section blog-detail-layout">
-        <div>
-          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=600" alt="Detalle Blog Streetwear" class="blog-detail-img">
-        </div>
-
-        <div>
-          <h2 class="blog-title blog-detail-title">¡La revolución del fit Oversize: Más que moda, un estilo de vida urbano!</h2>
-          <p class="blog-detail-text">
-            El corte oversize ha dejado de ser una tendencia pasajera para convertirse en la pieza central de la moda urbana global. No se trata solo de usar tallas más grandes, sino de prendas diseñadas técnicamente con caídas estructuradas, hombros caídos y telas de gramaje superior que garantizan comodidad sin perder la forma.
-          </p>
-          <p class="blog-detail-text-margin">
-            En <b>New Project</b> apostamos por prendas versátiles con algodón 100% peruano de alto gramaje, lavados vintage y acabados duraderos. Combina nuestros polos de corte holgado con cargos estructurados o joggers para lograr el equilibrio perfecto en tu día a día.
-          </p>
-          <a href="#" onclick="showPage('home')" class="back-link"><i class="fa-solid fa-arrow-left"></i> Anterior</a>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- SECCIÓN 3: FORMULARIO DE LOGIN -->
-  <main id="login" class="page-section">
-    <div class="login-container">
-      <div class="logo">
-        <h1>NEW PROJECT</h1>
-        <span>Oversize & Streetwear</span>
-      </div>
-      <h2>Iniciar sesión</h2>
-      <p>Introduce tu correo electrónico y te enviaremos un código de verificación</p>
-      
-      <form onsubmit="event.preventDefault();">
-        <input type="email" class="form-input" placeholder="Correo electrónico" required>
-        <button type="submit" class="btn-full">Continuar</button>
-      </form>
-
-      <div class="login-links">
-        <a href="#">Política de privacidad</a>
-        <a href="#">Términos del servicio</a>
-      </div>
-    </div>
-  </main>
-
-  <!-- SECCIÓN 4: FORMULARIO DE CONTACTO -->
-  <main id="contact" class="page-section">
-    <div class="container">
-      <div class="breadcrumb">
-        <a href="#" onclick="showPage('home')">Inicio</a> &gt; <span>Contacto</span>
-      </div>
-
-      <div class="contact-container">
-        <h2 class="contact-title">Contacto</h2>
-        <p class="contact-info">
-          Si tienes alguna duda y deseas comunicarte con nosotros, completa el siguiente formulario y te responderemos a la brevedad. También puedes escribirnos a <a href="mailto:contacto@newproject.pe">contacto@newproject.pe</a> o a nuestro WhatsApp <a href="#">(+51) 948228919</a>
-        </p>
-        <p class="contact-info contact-address">
-          Distrito San Isidro - Lima - Perú
-        </p>
-
-        <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensaje enviado');">
-          <input type="text" class="form-input" placeholder="Nombre" required>
-          <input type="email" class="form-input" placeholder="Correo electrónico" required>
-          <textarea class="form-input" placeholder="Mensaje" required></textarea>
-          <div class="text-center">
-            <button type="submit" class="btn-submit">Enviar</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </main>
-
-  <!-- PIE DE PÁGINA -->
-  <footer>
-    <div class="footer-content">
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <ul>
-          <li><a href="#">Política de cookies</a></li>
-          <li><a href="#">Política de privacidad</a></li>
-          <li><a href="#">Términos y condiciones</a></li>
-          <li><a href="#">Libro de reclamaciones</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Atención al cliente</h4>
-        <ul>
-          <li><a href="#">Preguntas frecuentes</a></li>
-          <li><a href="#">Guía de tallas Oversize</a></li>
-          <li><a href="#">Cambios y devoluciones</a></li>
-          <li><a href="#" onclick="showPage('contact')">Contacto</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Información de contacto</h4>
-        <ul>
-          <li><a href="#">Teléfono: +51 948228919</a></li>
-          <li><a href="mailto:contacto@newproject.pe">Correo: contacto@newproject.pe</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Síguenos</h4>
-        <div class="social-icons">
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      Derechos de autor © 2026 New Project. Tecnología de Shopify
-    </div>
-  </footer>
-</div>
- </header>   
-</body>
+    </footer>
+  </body>
 </html>
